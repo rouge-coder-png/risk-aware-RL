@@ -1,7 +1,7 @@
 # Forest Fire Rescue Reinforcement Learning Project
 ## Overview
 
-This project aims to demonstrate the use of reinforcement learning (RL) in the context of wilderness fire rescue missions. We simulate a scenario where a drone is deployed to locate and rescue a person in a wildfire-affected area. The goal is to navigate the drone to the person's location as quickly as possible, while avoiding the fire. To do this, we used a standard [Q-learning algorithm](Q_Learning.ipynb) and later a Deep Q-Network (DQN) agent in the three notebooks: [baseline algorithm](Starting_Point_DQN.ipynb), [exploration and exploitation](Exploration_Exploitation_DQN-2.ipynb) method and the [learning rate scheduler](Learning_Rate_Optimization.ipynb).
+This project aims to demonstrate the use of reinforcement learning (RL) in the context of wilderness fire rescue missions. We simulate a scenario where a drone is deployed to locate and rescue a person in a wildfire-affected area. The goal is to navigate the drone to the person's location as quickly as possible, while avoiding the fire. To do this, we used a standard [Q-learning algorithm](Q_Learning.ipynb) and later a Deep Q-Network (DQN) agent in the three notebooks: [baseline algorithm](Starting_Point_DQN.ipynb), [exploration and exploitation](Exploration_Exploitation_DQN-2.ipynb) method, an extra criteria for [revising states](Reward_Revisiting_States_DQN.ipynb) and the [learning rate scheduler](Learning_Rate_Optimization.ipynb).
 
 ## Prerequisites
 The project is also designed to be used on GoogleColab. To successfully run the code, follow these steps:
