@@ -10,7 +10,10 @@ The project is also designed to be used on GoogleColab. To successfully run the 
 
 * Image File: Obtain the necessary image file (details provided in the project documentation or directly in the code). Save this image to your Google Drive in a location you can easily access.
 <p align="center">
-<img src="forest_env.png" alt="Our Forest Fire Environment" width="300"></p>
+<img src="forest_environment.png" alt="Our Forest Fire Environment" width="300"></p>
+<p align="center">"forest env"</p>
+<img src="color_reduced_image.PNG" alt="Our Forest Fire Environment" width="300"></p>
+<p align="center">"color_reduced_image.PNG"</p>
 
 * Mounting Google Drive: In order to access the image from your Google Drive, you will need to mount your drive in the Colab notebook.
 
