@@ -7,7 +7,7 @@ This project aims to demonstrate the use of reinforcement learning (RL) in the c
 
 The environment for this project is defined in the ForestFireEnvironment class in forest_fire_environment.py. This class is a custom PyEnvironment from the TensorFlow Agents library. It represents a grid-like area where each grid cell can be either empty, contain the drone, the person to be rescued, or be on fire. The drone can move in four directions (up, down, left, right). The fire spreads randomly but not instantaneously, simulating the dynamics of a real fire. The environment is partially observable, meaning that the agent (drone) only knows the state of the grid cells it has visited.
 
-![Our Forest Fire Environment](side by side.png)
+![Our Forest Fire Environment](forest_environemnt.png)
 
 In the environment, the agent's actions are represented as integers in the range [0, 3], corresponding to the four possible directions of movement. Observations are represented as flattened versions of the grid, with extra elements indicating the positions of the drone and the person. Rewards are given based on the agent's actions: -1 for each step taken, -100 for entering a fire cell, and +100 for reaching the person.
 
