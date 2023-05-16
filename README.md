@@ -11,7 +11,7 @@ The project is also designed to be used on GoogleColab. To successfully run the 
 * Image File: Obtain the necessary image file (details provided in the project documentation or directly in the code). Save this image to your Google Drive in a location you can easily access.
 <p align="center">
 <img src="forest_environment.png" alt="Our Forest Fire Environment" width="300"></p>
-<p align="center">"forest env"</p>
+<p align="center">"forest_env.png"</p>
 <p align="center">
 <img src="color_reduced_image.PNG" alt="Our Forest Fire Environment" width="300"></p>
 <p align="center">"color_reduced_image.PNG"</p>
