@@ -12,6 +12,7 @@ The project is also designed to be used on GoogleColab. To successfully run the 
 <p align="center">
 <img src="forest_environment.png" alt="Our Forest Fire Environment" width="300"></p>
 <p align="center">"forest env"</p>
+<p align="center">
 <img src="color_reduced_image.PNG" alt="Our Forest Fire Environment" width="300"></p>
 <p align="center">"color_reduced_image.PNG"</p>
 
