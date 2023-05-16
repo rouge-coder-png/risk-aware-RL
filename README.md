@@ -21,6 +21,17 @@ The learning process is controlled by several hyperparameters, such as the learn
 
 ## Animation 
 The AnimationWrapper class, defined in animation_wrapper.py, is used to visualize the path taken by the drone through the environment. After the agent has been trained and a path has been generated, the AnimationWrapper class can be used to generate an animation of the path. The generated animation is a sequence of frames, each representing the state of the environment at a specific time step.
+<p align="center">
+<img src="starting_point.mov" width="200" height="200"/>
+<p align="center">The Baseline Model</p>
+<p align="center">
+<img src="learning_rate.mov" width="200" height="200"/>
+<p align="center">Learning Rate Training</p>
+<p align="center">
+<img src="exploration_exploitation.mov" width="200" height="200"/>
+<p align="center">Exploration/ Exploitation</p>
+</p>
+
 
 ## Additional Information
 This project also includes images uploaded in the environment, which provide visual representations of the different states of the grid cells (empty, drone, person, fire). These images are used in the AnimationWrapper class to generate a more visually appealing and interpretable animation of the drone's path.
