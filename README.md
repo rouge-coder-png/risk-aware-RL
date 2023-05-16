@@ -9,14 +9,16 @@ The project is also designed to be used on GoogleColab. To successfully run the 
 * Google Colab: Make sure you have access to Google Colab. You can access it here. You will need a Google account to use Colab.
 
 * Image File: Obtain the necessary image file (details provided in the project documentation or directly in the code). Save this image to your Google Drive in a location you can easily access.
+<p align="center">
+<img src="forest_env.png" alt="Our Forest Fire Environment" width="500"></p>
 
 * Mounting Google Drive: In order to access the image from your Google Drive, you will need to mount your drive in the Colab notebook.
 
 ## Environment
 
 The environment for this project is defined in the ForestFireEnvironment class in forest_fire_environment.py. This class is a custom PyEnvironment from the TensorFlow Agents library. It represents a grid-like area where each grid cell can be either empty, contain the drone, the person to be rescued, or be on fire. The drone can move in four directions (up, down, left, right). The fire spreads randomly but not instantaneously, simulating the dynamics of a real fire. The environment is partially observable, meaning that the agent (drone) only knows the state of the grid cells it has visited.
-
-<img src="side_by_side.png" alt="Our Forest Fire Environment" width="2000">
+<p align="center">
+<img src="side_by_side.png" alt="Our Forest Fire Environment" width="2000"></p>
 
 
 In the environment, the agent's actions are represented as integers in the range [0, 3], corresponding to the four possible directions of movement. Observations are represented as flattened versions of the grid, with extra elements indicating the positions of the drone and the person and the rewards are given based on the agent's actions: -1 for each step taken, -100 for entering a fire cell, and +100 for reaching the person.
